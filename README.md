@@ -27,7 +27,8 @@ A Python script (`ransomware.py`) utilizing robust symmetric encryption (`crypto
 2. Encrypts files using the Fernet algorithm, appending a `.locked` extension.
 3. Deletes original unencrypted files.
 4. Drops a ransom note (`RESCATE.txt`).
-
+<img width="1257" height="667" alt="Ransomware working" src="https://github.com/user-attachments/assets/eef700ce-836b-40d6-ab76-d89ca9ddc5ba" />
+<img width="1219" height="719" alt="compromised system" src="https://github.com/user-attachments/assets/4aa0b52c-4869-4c79-b5b4-5b3640a429ff" />
 ---
 
 ## 🎯 Phase 3: Detection Engineering & Active Response
@@ -62,7 +63,7 @@ When the ransomware script was launched from the Parrot OS machine, it managed t
 The attacker's SSH terminal froze instantly, containing the threat and preventing full system compromise.
 
 ### 🚀 Proof of Mitigation (Wazuh Dashboard)
-*Include your Wazuh dashboard screenshot showing rules 554, 100002, 553, and 651 here*
+
 <img width="1211" height="655" alt="Active Response" src="https://github.com/user-attachments/assets/beec42c8-be0d-4641-90a3-f23652165cba" />
 ---
 
