@@ -63,13 +63,14 @@ The attacker's SSH terminal froze instantly, containing the threat and preventin
 
 ### 🚀 Proof of Mitigation (Wazuh Dashboard)
 *Include your Wazuh dashboard screenshot showing rules 554, 100002, 553, and 651 here*
-
+<img width="1211" height="655" alt="Active Response" src="https://github.com/user-attachments/assets/beec42c8-be0d-4641-90a3-f23652165cba" />
 ---
 
 ## 🔄 Phase 5: Incident Recovery (Post-Incident)
 Once the threat actor was successfully banned by the firewall, a recovery script (`decrypt.py`) was executed on the local server to restore the few files encrypted before containment, using the symmetric key saved securely during the environment simulation.
 
 ---
+
 
 ## 🧠 Key Takeaways & Skills Demonstrated
 * **SIEM/EDR Engineering:** Advanced Wazuh rule creation and configuration (`ossec.conf`).
